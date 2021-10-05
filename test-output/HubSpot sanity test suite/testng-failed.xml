@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [HubSpot sanity test suite]">
+  <test name="Sanity Test(failed)">
+    <classes>
+      <class name="com.qa.rtp.test.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTitle"/>
+          <include name="setup"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.qa.rtp.test.LoginPageTest -->
+      <class name="com.qa.rtp.test.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyHomepgaeTitle"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.qa.rtp.test.HomePageTest -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [HubSpot sanity test suite] -->

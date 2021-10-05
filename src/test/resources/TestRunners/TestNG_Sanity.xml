@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="HubSpot sanity test suite" verbose="4" >
+
+ <test name="Sanity Test">
+  <classes>
+
+    <class name="com.qa.rtp.test.LoginPageTest"/>
+    <class name="com.qa.rtp.test.HomePageTest"/>
+
+  </classes>
+
+ </test>
+
+</suite>
+
